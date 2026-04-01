@@ -8,6 +8,7 @@ public class SpringbootMockTestDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootMockTestDemoApplication.class, args);
+		System.out.println("Line 1");
 	}
 
 }
