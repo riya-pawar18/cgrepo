@@ -17,5 +17,12 @@ public class Customer
 		this.phoneNo = phoneNo;
 	}
 	
+<<<<<<< HEAD
+=======
+	public void display()
+	{
+		System.out.println(name);
+	}
+>>>>>>> 7b3cbd9 (Added display)
 
 }
