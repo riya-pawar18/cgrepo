@@ -37,6 +37,7 @@ public class Account
 	public void display()
 	{
 		System.out.println("Account");
+		System.out.println("Account details upto date");
 	}
 	
 
