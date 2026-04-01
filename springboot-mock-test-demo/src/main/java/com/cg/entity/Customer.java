@@ -16,13 +16,11 @@ public class Customer
 	public void setPhoneNo(Integer phoneNo) {
 		this.phoneNo = phoneNo;
 	}
-	
-<<<<<<< HEAD
-=======
+
 	public void display()
 	{
-		System.out.println(name);
+		System.out.println("Display method");
 	}
->>>>>>> 7b3cbd9 (Added display)
+
 
 }
