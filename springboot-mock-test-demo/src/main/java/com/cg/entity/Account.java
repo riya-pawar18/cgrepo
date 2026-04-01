@@ -34,7 +34,10 @@ public class Account
 	public void setAmt(Double amt) {
 		this.amt = amt;
 	}
-	
+	public void display()
+	{
+		System.out.println("Account");
+	}
 	
 
 }
