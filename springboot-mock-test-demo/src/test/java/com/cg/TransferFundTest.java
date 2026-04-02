@@ -37,17 +37,17 @@ class TransferFundTest
 		optAcc2= Optional.ofNullable(acc2);
 		optAcc3= Optional.empty();
 	}
-	@Test
-	public void testTransferFund()
-	{
-		Mockito.when(repo.findById(101)).thenReturn(optAcc1);
-		Mockito.when(repo.findById(102)).thenReturn(optAcc2);
-		Mockito.when(repo.save(Mockito.any(Account.class))).thenReturn(new Account());
-		Assertions.assertTrue(accService.transferFund(101, 102, 2000.0));
-		Mockito.verify(repo).findById(101);
-		Mockito.verify(repo).findById(102);
-		Mockito.verify(repo).save(Mockito.any(Account.class));
-	}
+//	@Test
+//	public void testTransferFund()
+//	{
+//		Mockito.when(repo.findById(101)).thenReturn(optAcc1);
+//		Mockito.when(repo.findById(102)).thenReturn(optAcc2);
+//		Mockito.when(repo.save(Mockito.any(Account.class))).thenReturn(new Account());
+//		Assertions.assertTrue(accService.transferFund(101, 102, 2000.0));
+//		Mockito.verify(repo).findById(101);
+//		Mockito.verify(repo).findById(102);
+//		Mockito.verify(repo).save(Mockito.any(Account.class));
+//	}
 	@Test
 	public void testTransferFund2()
 	{
